@@ -14,11 +14,17 @@
 #
 # standalone_tags:
 #   [
-#     {id: ID, size: SIZE, name: NAME},
+#     {id: id, size: SIZE, name: NAME},
 #     ...
 #   ]
 standalone_tags:
   [
+    {id: 0, size: 1.0, name: "0"},
+    {id: 5, size: 1.0, name: "5"},
+    {id: 6, size: 1.0, name: "6"},
+    {id: 7, size: 1.0, name: "7"},
+    {id: 8, size: 1.0, name: "8"},
+    {id: 9, size: 1.0, name: "9"}
   ]
 # ## Tag bundle definitions
 # ### Remarks
@@ -35,7 +41,7 @@ standalone_tags:
 #       name: 'CUSTOM_BUNDLE_NAME',
 #       layout:
 #         [
-#           {id: ID, size: SIZE, x: X_POS, y: Y_POS, z: Z_POS, qw: QUAT_W_VAL, qx: QUAT_X_VAL, qy: QUAT_Y_VAL, qz: QUAT_Z_VAL},
+#           {id: id, size: SIZE, x: X_POS, y: Y_POS, z: Z_POS, qw: QUAT_W_VAL, qx: QUAT_X_VAL, qy: QUAT_Y_VAL, qz: QUAT_Z_VAL},
 #           ...
 #         ]
 #     },
