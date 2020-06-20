@@ -2,7 +2,7 @@
   <arg name="launch_prefix" default="" /> <!-- set to value="gdbserver localhost:10000" for remote debugging -->
   <arg name="node_namespace" default="apriltag_ros" />
   <arg name="camera_name" default="/camera" />
-  <arg name="camera_frame" default="camera" />
+  <arg name="camera_frame" default="car_1_zed_optical" />
   <arg name="image_topic" default="image_rect" />
 
     
